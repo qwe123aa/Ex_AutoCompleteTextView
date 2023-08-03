@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <AutoCompleteTextView
+        android:id="@+id/autoText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="자동완성텍스트뷰"
@@ -16,6 +17,7 @@
         android:layout_marginBottom="20dp"/>
 
     <MultiAutoCompleteTextView
+        android:id="@+id/multiAutooText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="멀티자동완성텍스트뷰"
